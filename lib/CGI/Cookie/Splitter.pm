@@ -200,6 +200,8 @@ are under a certain limit, without wasting too much effort.
 
 =item new %params
 
+The only supported parameters right now are C<size>. It defaults to 4096.
+
 =item split @cookies
 
 This method accepts a list of CGI::Cookie objects (or look alikes) and returns
@@ -220,7 +222,7 @@ Whether or not the cookie should be split
 
 =item mangle_name_next $name
 
-\Demangles name, increments the index and remangles.
+Demangles name, increments the index and remangles.
 
 =item mangle_name $name, $index
 
@@ -236,6 +238,11 @@ As long as your cookie names don't start with the substring C<_bigcookie_> you
 should be OK ;-)
 
 =back
+
+=head1 SUBCLASSING
+
+This module is designed to be easily subclassed... If you need to split cookies
+using a different criteria then you should look into that.
 
 =head1 SEE ALSO
 
