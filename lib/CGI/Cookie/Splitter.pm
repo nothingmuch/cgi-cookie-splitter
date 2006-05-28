@@ -228,7 +228,11 @@ Whether or not the cookie should be split
 These methods encapsulate a name mangling scheme for changing the cookie names
 to allo wa 1:n relationship.
 
-The default mangling behavior is not 100% safe because cookies with a safe size are not mangled.
+The default mangling behavior is not 100% safe because cookies with a safe size
+are not mangled.
+
+As long as your cookie names don't start with the substring C<_bigcookie_> you
+should be OK ;-)
 
 =back
 
