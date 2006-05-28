@@ -118,7 +118,8 @@ sub join {
 	my @ret;
 
 	foreach my $cookie ( @cookies ) {
-		if ( my ( $name, $index ) = $self->demangle_name( $cookie->name ) ) {
+		my ( $name, $index ) = $self->demangle_name( $cookie->name );
+		if ( $name ) {
 			$split{$name}[$index] = $cookie;
 		} else {
 			push @ret, $cookie;
