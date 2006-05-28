@@ -238,7 +238,7 @@ should be OK ;-)
 
 =head1 SEE ALSO
 
-L<CGI::Cookie>, L<CGI::Simple::Cookie>, L<http://www.foosecookiecutters.com/index.shtml>, RFC 2109
+L<CGI::Cookie>, L<CGI::Simple::Cookie>, L<http://www.cookiecutter.com/>, RFC 2109
 
 =head1 AUTHOR
 
