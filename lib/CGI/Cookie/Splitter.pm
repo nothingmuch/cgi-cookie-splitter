@@ -5,6 +5,9 @@ package CGI::Cookie::Splitter;
 use strict;
 use warnings;
 
+use vars qw/$VERSION/;
+$VERSION = "0.01";
+
 use Scalar::Util qw/blessed/;
 use CGI::Simple::Util qw/escape unescape/;
 use Carp qw/croak/;
