@@ -249,7 +249,9 @@ using a different criteria then you should look into that.
 
 =head1 SEE ALSO
 
-L<CGI::Cookie>, L<CGI::Simple::Cookie>, L<http://www.cookiecutter.com/>, RFC 2109
+L<CGI::Cookie>, L<CGI::Simple::Cookie>, L<http://www.cookiecutter.com/>,
+L<http://perlcabal.org/~gaal/metapatch/images/copper-moose-cutter.jpg>,
+RFC 2109
 
 =head1 AUTHOR
 
