@@ -48,7 +48,7 @@ my @cases = ( # big numbers are used to mask the overhead of the other fields
 	},
 	{
 		size_limit => 1000,
-		num_cookies => 14, # feck
+		num_cookies => 15, # feck
 		cookie => {
 			-name => "e",
 			-path => "/bar/gorch",

@@ -47,7 +47,7 @@ sub do_split_cookie {
 	my $tail = $self->new_cookie( $head, value => '', name => $self->mangle_name_next( $head->name ) );
 
 	my $max_value_size = $self->size - ( $self->cookie_size( $head ) - length( escape($head->value) ) );
-	$max_value_size -= 10; # account for overhead the cookie serializer might add
+	$max_value_size -= 30; # account for overhead the cookie serializer might add
 
 	die "Internal math error, please file a bug for CGI::Cookie::Splitter: max size should be > 0, but is $max_value_size (perhaps other attrs are too big?)"
 		unless ( $max_value_size > 0 );
