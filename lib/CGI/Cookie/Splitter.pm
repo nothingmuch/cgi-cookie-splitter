@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 use vars qw/$VERSION/;
-$VERSION = "0.01";
+$VERSION = "0.02";
 
 use Scalar::Util qw/blessed/;
 use CGI::Simple::Util qw/escape unescape/;
