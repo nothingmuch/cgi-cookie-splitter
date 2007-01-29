@@ -1,0 +1,6 @@
+0.02
+	- Change the CGI::Simple prereq so it works better on debian
+	- Increase the serialization overhead futz number
+
+0.01
+	- Initial release
